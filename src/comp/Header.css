@@ -34,6 +34,7 @@
     font-size: 1.2rem;
     margin: 0 1rem;
     cursor: pointer;
+    background-color: #7a4d7c;
   }
   button{
     background: transparent;
@@ -52,6 +53,7 @@
   .nav-link2:hover {
     text-decoration: 5px underline;
     scale: 1.1;
+    background-color: #7a4d7c;
     
   }
   @media (max-width: 768px) {

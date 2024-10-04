@@ -68,12 +68,12 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li> {/* Change to Link */}
           <li><Link to="/journal" onClick={toggleNavbar}>Journal</Link></li> {/* Change to Link */}
           <li><Link to="/community" onClick={toggleNavbar}>Community</Link></li> {/* Change to Link */}
-          <li><Link to="/selfcare" onClick={toggleNavbar}>Self Care</Link></li> {/* Change to Link */}
+          <li><Link to="/selfCare" onClick={toggleNavbar}>SelfCare</Link></li> {/* Change to Link */}
           <li><Link to="/test" onClick={toggleNavbar}>Test</Link></li> {/* Change to Link */}
           <li><Link to="/content" onClick={toggleNavbar}>Content</Link></li> {/* Change to Link */}
           <li><Link to="/exercise" onClick={toggleNavbar}>Exercise</Link></li> {/* Change to Link */}
           <li><Link to="/meditate" onClick={toggleNavbar}>VR meditation</Link></li> {/* Change to Link */}
-          <li><Link to="/resources" onClick={toggleNavbar}>Resources</Link></li> {/* Change to Link */}
+          <li><Link to="/chatbot" onClick={toggleNavbar}>Chatbot</Link></li> {/* Change to Link */}
           <li><Link to="/contact" onClick={toggleNavbar}>Contact</Link></li> {/* Change to Link */}
         </ul>
         <div className="burger" onClick={toggleNavbar}>

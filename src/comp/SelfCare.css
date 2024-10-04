@@ -1,0 +1,50 @@
+/* src/comp/SelfCare.css */
+.self-care-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #C8A1E0;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 17.6rem;
+  }
+  
+  .self-care-heading {
+    text-align: center;
+    color: #51445e;
+    margin-bottom: 20px;
+  }
+  
+  .self-care-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #c9b5e7;
+    color: rgb(12, 4, 4);
+  }
+  
+  .submit-button {
+    background-color: #6f5b81;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #9071b4;
+  }
+  
+  
