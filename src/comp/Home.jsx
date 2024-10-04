@@ -54,6 +54,7 @@ import Journal from './Journal';
 import Community from './Community';
 import Meditate from './Meditate';
 import Chats from './Chats';
+import Test from './Test';
 // import Quote from './Quote';
 
 const Home = () => {
@@ -95,6 +96,7 @@ const Home = () => {
           <Route path="/journal" element={<Journal />} /> {/* Route to Journal */}
           <Route path="/Community" element={<Community />} /> {/* Route to Journal */}
           <Route path="/Meditate" element={<Meditate />} /> {/* Route to Journal */}
+          <Route path="/Test" element={<Test />} /> {/* Route to Journal */}
           {/* Add more routes as needed */}
         </Routes>
       </div>
