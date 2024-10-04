@@ -52,6 +52,7 @@ import './Home.css';
 import Header from './Header';
 import Journal from './Journal';
 import Community from './Community';
+import Meditate from './Meditate';
 // import Quote from './Quote';
 
 const Home = () => {
@@ -86,6 +87,7 @@ const Home = () => {
           <Route path="/" element={<h2>Welcome to ZenBloom!</h2>} /> {/* Home message */}
           <Route path="/journal" element={<Journal />} /> {/* Route to Journal */}
           <Route path="/Community" element={<Community />} /> {/* Route to Journal */}
+          <Route path="/Meditate" element={<Meditate />} /> {/* Route to Journal */}
           {/* Add more routes as needed */}
         </Routes>
       </div>
