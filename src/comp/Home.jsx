@@ -57,6 +57,8 @@ import Chats from './Chats';
 import Test from './Test';
 import Exercise from './Exercise';
 import Chatbot from './Chatbot';
+import Content from './Content';
+import Contact from './Contact';
 
 import SelfCare from './SelfCare';
 // import Quote from './Quote';
@@ -106,6 +108,8 @@ const Home = () => {
           <Route path="/Exercise" element={<Exercise />} /> {/* Route to Journal */}
           <Route path="/Chatbot" element={<Chatbot />} /> {/* Route to Journal */}
           <Route path="/SelfCare" element={<SelfCare />} /> {/* Route to Journal */}
+          <Route path="/Content" element={<Content />} /> {/* Route to Journal */}
+          <Route path="/Contact" element={<Contact />} /> {/* Route to Journal */}
 
 
 

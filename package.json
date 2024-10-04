@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "@tensorflow-models/posenet": "^2.2.2",
     "@tensorflow/tfjs": "^4.21.0",
     "@testing-library/jest-dom": "^5.17.0",
