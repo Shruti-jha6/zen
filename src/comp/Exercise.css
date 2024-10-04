@@ -1,0 +1,26 @@
+/* src/comp/Exercise.css */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #5e35b1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4527a0;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
