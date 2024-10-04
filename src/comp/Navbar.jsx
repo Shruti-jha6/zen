@@ -74,7 +74,7 @@ const Navbar = () => {
           <li><Link to="/exercise" onClick={toggleNavbar}>Exercise</Link></li> {/* Change to Link */}
           <li><Link to="/meditate" onClick={toggleNavbar}>VR meditation</Link></li> {/* Change to Link */}
           <li><Link to="/chatbot" onClick={toggleNavbar}>Chatbot</Link></li> {/* Change to Link */}
-          <li><Link to="/contact" onClick={toggleNavbar}>Contact</Link></li> {/* Change to Link */}
+          {/* <li><Link to="/contact" onClick={toggleNavbar}>Contact</Link></li> Change to Link */}
         </ul>
         <div className="burger" onClick={toggleNavbar}>
           <div className="line1"></div>
