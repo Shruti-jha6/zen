@@ -97,7 +97,7 @@
 // src/comp/Exercise.jsx
 import React, { useRef, useEffect, useState } from 'react';
 import Webcam from 'react-webcam';
-import * as tf from '@tensorflow/tfjs';
+// import * as tf from '@tensorflow/tfjs';
 import * as posenet from '@tensorflow-models/posenet';
 import './Exercise.css';
 

@@ -53,7 +53,7 @@ import Header from './Header';
 import Journal from './Journal';
 import Community from './Community';
 import Meditate from './Meditate';
-import Chats from './Chats';
+// import Chats from './Chats';
 import Test from './Test';
 import Exercise from './Exercise';
 import Chatbot from './Chatbot';

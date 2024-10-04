@@ -6,7 +6,7 @@ const SelfCare = () => {
   const [sleepHours, setSleepHours] = useState('');
   const [plans, setPlans] = useState([]);
   const [hobby, setHobby] = useState('');
-  const [hobbies, setHobbies] = useState([]);
+//   const [hobbies, setHobbies] = useState([]);
   const [screenTime, setScreenTime] = useState('');
 
   const handleAddPlan = (e) => {
