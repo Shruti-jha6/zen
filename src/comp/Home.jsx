@@ -98,9 +98,9 @@ const Home = () => {
           {/* Add more routes as needed */}
         </Routes>
       </div>
-      <div className='chatblock'>
+      {/* <div className='chatblock'>
       <Chats/>
-      </div>
+      </div> */}
     </Router>
   );
 };
