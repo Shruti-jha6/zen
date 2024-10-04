@@ -38,6 +38,13 @@ padding-left: 15rem;
   text-align: center;
   font-family: 'Dancing Script', cursive; 
 }
+.chatblock{
+  width: 80%;
+  margin-left: 17rem;
+  padding: 2rem;
+  background-color: #C8A1E0;
+  margin-top: -4.5rem;
+}
 
 /* Mobile and tablet styles */
 @media screen and (max-width: 768px) {

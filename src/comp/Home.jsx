@@ -53,6 +53,7 @@ import Header from './Header';
 import Journal from './Journal';
 import Community from './Community';
 import Meditate from './Meditate';
+import Chats from './Chats';
 // import Quote from './Quote';
 
 const Home = () => {
@@ -75,12 +76,18 @@ const Home = () => {
     <Router> {/* Wrap with Router for routing */}
       <div>
         <Header/>
-        <Navbar /> {/* Navbar will be available on all routes */}
+        <Navbar/>
+
+       
+         Navbar will be available on all routes
         <div className='container'>
           <header className="header">
             <h1 className="heading">ZenBloom</h1>
           </header>
         </div>
+       
+          
+        
 
         <Routes>
           {/* Define the routes for your components */}
@@ -90,6 +97,9 @@ const Home = () => {
           <Route path="/Meditate" element={<Meditate />} /> {/* Route to Journal */}
           {/* Add more routes as needed */}
         </Routes>
+      </div>
+      <div className='chatblock'>
+      <Chats/>
       </div>
     </Router>
   );
