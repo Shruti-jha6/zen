@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+/* Styling for the container */
+.container {
+    
+  height: 100vh; 
+  width: 100%; 
+  background: linear-gradient(135deg, #b47ca6 ,#b47ca6, #E2BFD9 ,#C8A1E0); /* Linear gradient background */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+.container1 {
+    
+  height: 100vh; 
+  width: 100%; 
+  background: linear-gradient(135deg,#C8A1E0,  #E2BFD9 ); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* Styling for the header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* Styling for the animated heading */
+.heading {
+padding-left: 15rem;
+  font-size: 12rem;
+  color: #674188;
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+}
+
+/* Mobile and tablet styles */
+@media screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  .container1{
+    width: 100%;
+  }
+    
+  .heading {
+    padding-right: 16rem;
+    font-size: 7rem; 
+  }
+}
