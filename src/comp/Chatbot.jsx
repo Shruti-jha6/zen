@@ -20,7 +20,7 @@ function Chatbot() {
 
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyA_j28I91BmKFjaWHATCzt5I2OjpWubCyc`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
